@@ -5,6 +5,9 @@ class Player:
         """
         self.name = name
         self.health = 100
+        self.luck = 0
+        self.defense = 0
+        self.purse = 10
 
     def attack(self, target):
         print(f"{self.name} attaque {target}!")
