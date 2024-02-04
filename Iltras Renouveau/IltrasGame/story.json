@@ -1,0 +1,238 @@
+{
+  "story": {
+    "title": "L'histoire poignante",
+    "start": "start",
+    "scenes": {
+      "start": {
+        "text": "Vous vous réveillez dans une forêt sombre et mystérieuse. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Explorer la forêt",
+            "nextScene": "exploreForest"
+          },
+          {
+            "text": "Revenir en arrière",
+            "nextScene": "goBack"
+          }
+        ]
+      },
+      "exploreForest": {
+        "text": "En explorant la forêt, vous trouvez un coffre. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Ouvrir le coffre",
+            "nextScene": "openChest"
+          },
+          {
+            "text": "Continuer à explorer",
+            "nextScene": "continueExploring"
+          }
+        ]
+      },
+      "openChest": {
+        "text": "Vous ouvrez le coffre et trouvez une épée magique. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Prendre l'épée",
+            "nextScene": "takeSword"
+          },
+          {
+            "text": "Ignorer l'épée",
+            "nextScene": "ignoreSword"
+          }
+        ]
+      },
+      "takeSword": {
+        "text": "Vous prenez l'épée et continuez votre chemin. Soudain, un ennemi apparaît devant vous. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Combattre l'ennemi",
+            "nextScene": "fightEnemy"
+          },
+          {
+            "text": "Fuir",
+            "nextScene": "runAway"
+          }
+        ]
+      },
+      "fightEnemy": {
+        "text": "Vous engagez un combat féroce avec l'ennemi. Après une lutte acharnée, vous triomphez. Que faites-vous ensuite ?",
+        "choices": [
+          {
+            "text": "Continuer votre chemin",
+            "nextScene": "continuePath"
+          },
+          {
+            "text": "Revenir en arrière",
+            "nextScene": "goBack"
+          }
+        ]
+      },
+      "continuePath": {
+        "text": "Vous continuez votre chemin et arrivez à un village en ruines. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Explorer le village",
+            "nextScene": "exploreVillage"
+          },
+          {
+            "text": "Ignorer le village",
+            "nextScene": "ignoreVillage"
+          }
+        ]
+      },
+      "exploreVillage": {
+        "text": "En explorant le village, vous trouvez un coffre. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Ouvrir le coffre",
+            "nextScene": "openChest2"
+          },
+          {
+            "text": "Continuer à explorer",
+            "nextScene": "continueExploring2"
+          }
+        ]
+      },
+      "openChest2": {
+        "text": "Vous ouvrez le coffre et trouvez une potion de guérison. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Prendre la potion",
+            "nextScene": "takePotion"
+          },
+          {
+            "text": "Ignorer la potion",
+            "nextScene": "ignorePotion"
+          }
+        ]
+      },
+      "takePotion": {
+        "text": "Vous prenez la potion et continuez votre chemin. Vous rencontrez un autre ennemi. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Combattre l'ennemi",
+            "nextScene": "fightEnemy2"
+          },
+          {
+            "text": "Fuir",
+            "nextScene": "runAway2"
+          }
+        ]
+      },
+      "fightEnemy2": {
+        "text": "Vous engagez un combat féroce avec l'ennemi. Après une lutte acharnée, vous triomphez. Que faites-vous ensuite ?",
+        "choices": [
+          {
+            "text": "Continuer votre chemin",
+            "nextScene": "continuePath2"
+          },
+          {
+            "text": "Revenir en arrière",
+            "nextScene": "goBack"
+          }
+        ]
+      },
+      "continuePath2": {
+        "text": "Vous continuez votre chemin et arrivez à un château abandonné. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Explorer le château",
+            "nextScene": "exploreCastle"
+          },
+          {
+            "text": "Ignorer le château",
+            "nextScene": "ignoreCastle"
+          }
+        ]
+      },
+      "exploreCastle": {
+        "text": "En explorant le château, vous trouvez un coffre. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Ouvrir le coffre",
+            "nextScene": "openChest3"
+          },
+          {
+            "text": "Continuer à explorer",
+            "nextScene": "continueExploring3"
+          }
+        ]
+      },
+      "openChest3": {
+        "text": "Vous ouvrez le coffre et trouvez une clé magique. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Prendre la clé",
+            "nextScene": "takeKey"
+          },
+          {
+            "text": "Ignorer la clé",
+            "nextScene": "ignoreKey"
+          }
+        ]
+      },
+      "takeKey": {
+        "text": "Vous prenez la clé et continuez votre chemin. Vous rencontrez un dernier ennemi. Que faites-vous ?",
+        "choices": [
+          {
+            "text": "Combattre l'ennemi",
+            "nextScene": "fightFinalEnemy"
+          },
+          {
+            "text": "Fuir",
+            "nextScene": "runAwayFinal"
+          }
+        ]
+      },
+      "fightFinalEnemy": {
+        "text": "Vous engagez un combat épique avec l'ennemi. Après une bataille acharnée, vous triomphez. Vous avez réussi votre quête !",
+        "choices": []
+      },
+      "goBack": {
+        "text": "Vous décidez de revenir en arrière. Votre aventure prend fin ici.",
+        "choices": []
+      },
+      "continueExploring": {
+        "text": "Vous continuez à explorer la forêt. Votre aventure continue...",
+        "choices": []
+      },
+      "ignoreSword": {
+        "text": "Vous ignorez l'épée et continuez votre chemin. Votre aventure continue...",
+        "choices": []
+      },
+      "runAway": {
+        "text": "Vous fuyez l'ennemi et continuez votre chemin. Votre aventure continue...",
+        "choices": []
+      },
+      "continueExploring2": {
+        "text": "Vous continuez à explorer le village. Votre aventure continue...",
+        "choices": []
+      },
+      "ignorePotion": {
+        "text": "Vous ignorez la potion et continuez votre chemin. Votre aventure continue...",
+        "choices": []
+      },
+      "runAway2": {
+        "text": "Vous fuyez l'ennemi et continuez votre chemin. Votre aventure continue...",
+        "choices": []
+      },
+      "continueExploring3": {
+        "text": "Vous continuez à explorer le château. Votre aventure continue...",
+        "choices": []
+      },
+      "ignoreKey": {
+        "text": "Vous ignorez la clé et continuez votre chemin. Votre aventure continue...",
+        "choices": []
+      },
+      "ignoreCastle": {
+        "text": "Vous ignorez le château et continuez votre chemin. Votre aventure continue...",
+        "choices": []
+      },
+      "runAwayFinal": {
+        "text": "Vous fuyez l'ennemi et abandonnez votre quête. Votre aventure prend fin ici.",
+        "choices": []
+      }
+    }
+  }
+}
