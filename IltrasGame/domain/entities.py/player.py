@@ -1,5 +1,8 @@
 class Player:
-    def __init__(self, name, level):
+    def __init__(self, name):
+        """
+        Initialisation d'un joueur
+        """
         self.name = name
         self.health = 100
 
